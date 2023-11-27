@@ -1,0 +1,45 @@
+.container {
+    /* display: flex; */
+    justifyContent: "center";
+            alignItems: "center";
+}
+
+.page {
+    font-size: 5rem;
+    text-align: center;
+    padding-left: 80px;
+.mail{
+    font-size: 30px;
+    font-family: 'Nunito';
+
+}
+.EmailForm{
+        display: table-cell;
+}
+
+.mailForm{
+    padding-left: 700px;
+}
+.button-group{
+    display: block;
+    
+    .LinkedIn{
+        background: #0033cc;
+        width: 80px;
+        height: 80px;
+        margin-right: 50px;
+
+    }
+    .GitHub {
+        size: 100;
+        background: purple;
+                width: 80px;
+                    height: 80px;
+        
+                    /* padding: 10px; */
+    }
+    
+
+    }
+
+}    

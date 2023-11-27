@@ -1,0 +1,75 @@
+.portfolio{
+padding: 0;
+        width: 1900px;
+            height: 800px;
+                justifyContent: "center";
+}
+
+.left{
+    float:left;
+    width:900px;
+        padding-left: 100px;
+        height:1200px;
+        align-items: center;
+}
+
+.right {
+    float: right;
+    width:800px;
+    align-items: left;
+    padding-left: 100px;
+    height: 1200px;
+}
+
+.wrapper{
+    padding-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.accordian{
+    width:500px;   
+    padding-left: 50px; 
+
+}
+
+.labels{
+    text-decoration: underline;
+    font-family: 'Nunito';
+}
+.item{
+    background: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.itemRight {
+    background: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    width:80%
+}
+
+.title{
+    color: #85662b;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+}
+
+.content{
+    color:#8b7f75;
+    max-height: 0;
+    overflow: hidden;
+    transition:all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show{
+    height:auto;
+    max-height: 9999px;
+    transition:all 0.5s cubic-bezier(1,0,1,0);
+
+}

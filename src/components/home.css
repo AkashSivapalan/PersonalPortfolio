@@ -1,0 +1,30 @@
+.home{
+
+    justifyContent: "center";
+    alignItems: "center";
+    height: 100%;
+}
+
+.profilepage{
+            justifyContent: "center";
+            alignItems: "center";
+            padding-left: 900px;
+            padding-top: 10px;
+}
+
+.profile{
+        display: flex;
+            justifyContent: "center";
+            alignItems: "center";
+}
+
+.nametag{
+    padding-left: 30px;
+    font-family: 'Nunito';
+}
+
+.bio{
+    width: 80%;
+    padding-left:300px ;
+    alignItems: "center";
+}

@@ -1,0 +1,16 @@
+.mysidenav{
+  background-color:#022c43 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 1200px;
+}
+
+@media screen and (min-width: 1024px) {
+  /* CSS rules specific to desktop screens go here */
+}
+
+.webpage{
+  padding: 0;
+    margin: 0;
+    width: 1900px;
+    height:900px;
+}
